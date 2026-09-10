@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập ngày 3 - CSS nội bộ</title>
+  <style>
+    /* CSS viết trong đây */
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: rgb(156, 10, 10);
+      font-size: 40px;
+    }
+
+    h2 {
+      color: rgb(102, 169, 61);
+      font-style: italic;
+    }
+
+    p {
+      color: rgb(47, 156, 156);
+      font-size: 20px;
+    }
+
+    a {
+      color: yellow;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Chào mừng bạn đến với trang của tôi</h1>
+  <h2>Bài tập 3 - CSS nội bộ</h2>
+  <p>Đây là đoạn giới thiệu bản thân:</p>
+  <h1>Lê Trung Hiếu</h1>
+
+  <ul>
+    <li><a href="#giua">Xuống giữa trang</a></li>
+    <li><a href="#cuoi">Xuống cuối trang</a></li>
+  </ul>
+
+  <hr>
+
+  <h2 id="giua">Giữa trang</h2>
+  <p><a href="#top">Lên đầu trang</a></p>
+
+  <h2 id="cuoi">Cuối trang</h2>
+  <p><b>Cảm ơn đã ghé thăm!</b></p>
+</body>
+</html>
